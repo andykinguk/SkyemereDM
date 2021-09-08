@@ -1,0 +1,15 @@
+{
+    "timeZone": "Europe/London",
+    "dependencies": {
+      "libraries": [
+        {
+          "userSymbol": "SkyemereDDBintegration",
+          "version": "0",
+          "libraryId": "1IjJfjYmiCivFzYXDSmQza_q6eQ_Ge56mR2O3Io0ZdhjlAus8ud0Fbe55",
+          "developmentMode": true
+        }
+      ]
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8"
+  }
