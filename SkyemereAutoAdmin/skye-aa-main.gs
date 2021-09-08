@@ -81,6 +81,10 @@ function createMeaningfulError (arrayTask, message) {
 function confirmDoneTask(arrayTask,i){
 
   var taskJobID = arrayTask[0][15]
+
+  if (taskJobID == "")
+  return;
+  
   var arrayJobIDs = submissionSheet.getSheetValues(1,columnJobID,submissionsLastRow,1)
   
   for(var j = 0; j < arrayJobIDs.length;j++) {
