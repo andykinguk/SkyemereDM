@@ -174,7 +174,7 @@ function checkLegality(response) {
   
   function approvedSourceChecker (charSheetSources) {
     // basic rules - 1, phb - 2, ee - 4, scag - 13, volo - 15, xgte - 27, tortle - 28, mtof - 33, ggtr - 38, eber - 49, tcoe - 67
-    var approvedSources = ([1,2,4,5,13,15,27,28,33,38,49,67])
+    var approvedSources = ([1,2,4,13,15,27,28,33,38,49,67])
     return charSheetSources.every(elem => approvedSources.includes(elem))
   }
   
